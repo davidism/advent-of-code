@@ -1,0 +1,4 @@
+[tool.ruff]
+fix = true
+show-fixes = true
+output-format = "full"
