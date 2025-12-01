@@ -1,0 +1,32 @@
+[project]
+name = "advent-of-code-2025"
+version = "0"
+classifiers = ["Private :: Do Not Upload"]
+requires-python = "~=3.14.0"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit",
+    "pre-commit-uv",
+    "ruff",
+]
+
+[tool.ruff]
+fix = true
+show-fixes = true
+output-format = "full"
+
+[tool.ruff.lint]
+select = [
+    "B",  # flake8-bugbear
+    "E",  # pycodestyle error
+    "F",  # pyflakes
+    "I",  # isort
+    "UP",  # pyupgrade
+    "W",  # pycodestyle warning
+]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+order-by-type = false
