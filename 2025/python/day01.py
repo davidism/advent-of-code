@@ -1,6 +1,6 @@
 import math
 
-with open("day01.txt") as f:
+with open("../day01.txt") as f:
     data = [
         (1 if line[0] == "R" else -1) * int(line[1:]) for line in f.read().splitlines()
     ]

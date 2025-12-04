@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-with open("day03.txt") as f:
+with open("../day03.txt") as f:
     data = tuple(tuple(int(c) for c in line.strip()) for line in f)
 
 get1 = itemgetter(1)

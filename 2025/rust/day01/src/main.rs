@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let data = include_str!("../../../day01.txt");
+    print!("{}", data);
 }

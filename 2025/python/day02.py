@@ -1,7 +1,7 @@
 from more_itertools import all_equal
 from more_itertools import sliced
 
-with open("day02.txt") as f:
+with open("../day02.txt") as f:
     data = [
         range(int(a), int(b) + 1)
         for a, b in (r.split("-", 1) for r in f.read().strip().split(","))

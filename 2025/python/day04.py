@@ -1,6 +1,6 @@
 from collections.abc import Iterator
 
-with open("day04.txt") as f:
+with open("../day04.txt") as f:
     data = {(x, y) for y, line in enumerate(f) for x, c in enumerate(line) if c == "@"}
 
 
