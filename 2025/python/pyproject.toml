@@ -7,13 +7,6 @@ dependencies = [
     "more-itertools>=10.8.0",
 ]
 
-[dependency-groups]
-dev = [
-    "pre-commit",
-    "pre-commit-uv",
-    "ruff",
-]
-
 [tool.ruff]
 fix = true
 show-fixes = true

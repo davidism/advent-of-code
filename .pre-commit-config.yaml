@@ -1,0 +1,7 @@
+repos:
+  - repo: builtin
+    hooks:
+      - id: check-merge-conflict
+      - id: fix-byte-order-marker
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
