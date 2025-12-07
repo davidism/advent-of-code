@@ -4,4 +4,5 @@ repos:
       - id: check-merge-conflict
       - id: fix-byte-order-marker
       - id: trailing-whitespace
+        exclude: '^.+/day.+\.txt$'
       - id: end-of-file-fixer
